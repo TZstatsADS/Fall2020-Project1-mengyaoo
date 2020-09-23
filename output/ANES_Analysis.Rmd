@@ -191,14 +191,14 @@ ggplot(count(protester,covid1),aes(x=as.factor(covid1), y=n/sum(n)))+
 ```
 
 # Conclusion
-1. Americans who are worried about economy are alsoworried about coronavirus.
+1. Americans who are worried about economy are also worried about coronavirus.
 2. A majority of Americans who are worried about economy don't satisfy with Trump's work.
 3. Protesters are also worried about coronavirus.
 
 # Discussion
-Americans are worried about coronavirus.However, they are more worried about economy than coronavirus. Why this happened? In this summer, I participated a design challenge about reducing inequity in a world shaped by COVID-19. During this time, I and my teammates spreaded some online servey and talked with many essential workers. We asked them what the problems are they faced, all of them mentioned about financial issue. A cashier told us that her mother was infected and her faimily didn't have any income for two weeks at that time. She needed monoy to survive, so she worried about Covid-19 but more worried about economy. Also, a man worked in grogery store said that the company he worked at didn't provide any effective measures to protect them and the majority of customers were not willing to wear a mask. He's very scared but he concerned more about unemployment. If he losed this job, then he won't have the money to pay for the rent. There are many stories like this. These people are worried about coronavirus, but obviously financial issues are more deadly for them.
+Americans are worried about economy. In the same time, they are worried about coronavirus. Why this happened? In this summer, I participated a design challenge about reducing inequity in a world shaped by COVID-19. During this time, I and my teammates spreaded some online servey and talked with many essential workers. We asked them what the problems are they faced, all of them mentioned about financial issue. A cashier told us that her mother was infected and her faimily didn't have any income for two weeks at that time. She needed monoy to survive, so she worried about Covid-19 but more worried about economy. Also, a man worked in grogery store said that the company he worked at didn't provide any effective measures to protect them and the majority of customers were not willing to wear a mask. He's very scared but he concerned more about unemployment. If he losed this job, then he won't have the money to pay for the rent. There are many stories like this and this might be the reason why people have this kind of thoughts and request for reopening. These people are worried about coronavirus, but obviously financial issues are more deadly for them.
 
-
+However, there's some issues about this report. The survey contains many missing values which could cause some biases. Also, for the protestor part, the assumption I made will cause some problem since not all people who attend to protests in the past 12 monthes went to a protest that asked for reopening. 
 
 
 
