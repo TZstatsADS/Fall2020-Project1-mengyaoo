@@ -9,10 +9,10 @@ This is the first and only *individual* (as opposed to *team*) this semester.
 
 Term: Fall 2020
 
-+ Projec title: Lorem ipsum dolor sit amet
++ Projec title: Are Americans Who Concerned About Economy Concerned About Covid-19?
 + This project is conducted by Mengyao He
 
-+ Project summary: [a short summary] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
++ Project summary: Americans are worried more worried about economy than Covid-19. Does this means those people are not concerned about the risk of Covid-19? From this analysis, I learned that Americans are very worried about Covid-19 and Economy in the same time.
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
