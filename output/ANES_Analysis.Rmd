@@ -121,7 +121,7 @@ cor(anes_use$covid2, anes_use$covid1)
 ```
 
 # Policy Preference
-For Americans who are concerned about economy, they hope to reopen and let them back to work instead of lockdown the country. It seems that Trump's policies fit their ideas. What's their attitude toward Trump? From the results, it shows similar shares of Republicans and Democrats are concerned about the Covid-19's impact on economy. In addition, it showed that a majority of people do not satisfy with Trump's work.
+For Americans who are concerned about economy, they hope to reopen and let them back to work instead of lockdown the country. It seems that Trump's policies fit their ideas. What's their attitude toward Trump? From the results, it shows similar shares of Republicans and Democrats are concerned about the Covid-19's impact on economy. In addition, it showed that a majority of people do not satisfy with Trump's president work.
 ```{r are they Trumpy, echo=FALSE}
 # ggplot(count(econ_worried_more,vote16),aes(x=as.factor(vote16), y=n/sum(n)))+ 
 #   geom_bar(stat="identity")+
