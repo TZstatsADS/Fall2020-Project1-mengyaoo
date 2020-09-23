@@ -104,7 +104,7 @@ kable(econ_covid, caption = "People who are worried econ, what's their attitude 
 econ_worried_more <- anes_use[(anes_use$covid2 == 1) | (anes_use$covid2 == 2),] 
 ggplot(count(econ_worried_more,covid1),aes(x=as.factor(covid1), y=n/sum(n)))+
   geom_bar(stat="identity")+
-  labs(y= "Frequency", x = "Choices")
+  labs(y= "Frequency", x = "Choices", title = "Covid attitude of people who are more worried about economy")
 
 ```
 ```{r, echo=FALSE, out.width = "60%", fig.align='center'}
@@ -112,7 +112,7 @@ econ_worried_less <- anes_use[(anes_use$covid2 == 4) |
                          (anes_use$covid2 == 5),] 
 ggplot(count(econ_worried_less,covid1),aes(x=as.factor(covid1), y=n/sum(n)))+ 
   geom_bar(stat="identity")+
-  labs(y= "Frequency", x = "Choices")
+  labs(y= "Frequency", x = "Choices", title = "Covid attitude of people who are less worried about economy")
 
 ```
 
@@ -121,7 +121,7 @@ cor(anes_use$covid2, anes_use$covid1)
 ```
 
 # Policy Preference
-For Americans who are concerned about economy, they hope to reopen and let them back to work instead of lockdown the country. It seems that Trump's policies fit their ideas. What's their attitude toward Trump? From the results, it showed that a majority of people do not satisfy with Trump's work.
+For Americans who are concerned about economy, they hope to reopen and let them back to work instead of lockdown the country. It seems that Trump's policies fit their ideas. What's their attitude toward Trump? From the results, it shows similar shares of Republicans and Democrats are concerned about the Covid-19's impact on economy. In addition, it showed that a majority of people do not satisfy with Trump's work.
 ```{r are they Trumpy, echo=FALSE}
 # ggplot(count(econ_worried_more,vote16),aes(x=as.factor(vote16), y=n/sum(n)))+ 
 #   geom_bar(stat="identity")+
@@ -156,15 +156,15 @@ kable(vote20bs, caption = "Trump v.s. Sanders")
 econ_worried_more_clean = econ_worried_more[econ_worried_more$covidpres7 != 88,]
 ggplot(count(econ_worried_more_clean, covidpres7),aes(x=as.factor(covidpres7), y=n/sum(n)))+ 
   geom_bar(stat="identity")+
-  labs(y= "Frequency", x = "Choices")
+  labs(y= "Frequency", x = "Choices", title = "How people think Trump's work with Covid")
 
 ggplot(count(econ_worried_more,econpres7),aes(x=as.factor(econpres7), y=n/sum(n)))+ 
   geom_bar(stat="identity")+
-  labs(y= "Frequency", x = "Choices")
+  labs(y= "Frequency", x = "Choices", title = "How people think Trump's work with economy")
 
 ggplot(count(econ_worried_more,apppres7),aes(x=as.factor(apppres7), y=n/sum(n)))+ 
   geom_bar(stat="identity")+
-  labs(y= "Frequency", x = "Choices")
+  labs(y= "Frequency", x = "Choices", title = "How people think Trump's work in general")
 
 ```
 
@@ -177,16 +177,16 @@ Here, I assumed that people who attended protests last 12 monthes also attended 
 protester <- anes_use[anes_use$protest == 1,] 
 ggplot(count(protester,covid2),aes(x=as.factor(covid2), y=n/sum(n)))+ 
   geom_bar(stat="identity")+
-  labs(y= "Frequency", x = "Choices")
+  labs(y= "Frequency", x = "Choices", title = "Covid attitude of protester")
 
 ```
 
 
 ```{r, echo=FALSE, out.width = "60%", fig.align='center'}
-protester <- anes_use[(anes_use$protest == 1) & (anes_use$covid2 == 1 ),] 
+protester <- anes_use[(anes_use$protest == 1) & (anes_use$covid2 == 1),] 
 ggplot(count(protester,covid1),aes(x=as.factor(covid1), y=n/sum(n)))+ 
   geom_bar(stat="identity")+
-  labs(y= "Frequency", x = "Choices")
+  labs(y= "Frequency", x = "Choices", title = "Covid attitude of protester with extremely concerning about economy")
 
 ```
 
